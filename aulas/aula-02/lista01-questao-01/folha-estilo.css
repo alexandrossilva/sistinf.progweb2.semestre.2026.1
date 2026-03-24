@@ -1,0 +1,15 @@
+* {
+    text-align: center;
+}
+
+input {
+    width: 50px;
+}
+
+#n2 {
+    background-color: yellow;
+}
+
+button {
+    color: red;
+}
