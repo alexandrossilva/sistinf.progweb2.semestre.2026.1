@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números Aleatórios</title>
+    <link rel="stylesheet" href="numeros-aleatorios.css">
+</head>
+<body>
+    <form action="/numeros-aleatorios" method="get">
+        Quantidade de números aleatórios:
+        <input type="number" id="qtd" name="qtd" value="10">
+        <br>
+        Tipo de processamento:
+        <select name="tipoResposta" id="tipoResposta">
+            <option value="lista">Lista de números</option>
+            <option value="soma">Soma de números</option>
+            <option value="media">Média de números</option>
+        </select>
+        <br>
+        <button type="submit">Gerar</button>
+    </form>
+</body>
+</html>
